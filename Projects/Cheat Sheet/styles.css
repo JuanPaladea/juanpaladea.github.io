@@ -9,7 +9,7 @@ h1 {
 
 table {
     border: 2px solid blue;
-    width: 800px;
+    width: 1000px;
     margin: 0 auto;
     border-spacing: 4px;
 }
@@ -17,11 +17,16 @@ table {
 tr {
     height: 40px;
     vertical-align: inherit
+    margin: 5px auto;
 }
 
 td {
     border-top: 1px solid blue;
     vertical-align: inherit
+}
+
+th, td {
+    padding: 10px;
 }
 
 thead {
